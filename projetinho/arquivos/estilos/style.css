@@ -36,7 +36,7 @@ PALETA DO PROJETO
 
 body {
     background-color: var(--cor0);
-    font-family: var(--fonte-padrao)
+    font-family: var(--fonte-padrao);
 }
 
 header{
@@ -45,7 +45,7 @@ header{
 
 header > h1 {
     color: white;
-    font-family:var(--font-destaque)
+    font-family:var(--font-destaque);
 
 }
 
@@ -59,17 +59,36 @@ nav {
 
 main {
     background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;;
 }
 
 footer {
     background-color: var(--cor5);
     color: white;
+    text-align: center;
 }
 
 main h1 {
    color:  var(--cor5);
-   font-family:var(--font-android)
+   font-family:var(--font-android);
 }
 main h2{
-    font-family:var(--font-android)
+    font-family:var(--font-android);
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    width: 50%;
+    margin: auto;
+    display: block;
 }
