@@ -34,7 +34,8 @@ PALETA DO PROJETO
     padding: 0px;
 }
 body {
-    background-color: var(--cor0);
+    background-repeat: no-repeat;
+    background-image:linear-gradient(45deg, #49F2F2, #227070, #00BDBD, #00F0EE, #49F2F2);
     font-family: var(--fonte-padrao);
 }
 
@@ -44,8 +45,8 @@ a.externo::after {
 
 
 header{
-    background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor4));
-    background-color: var(--cor4);
+        background-image: linear-gradient(45deg, var(--cor2), var(--cor3), var(--cor4));
+        background-color: var(--cor4);
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
