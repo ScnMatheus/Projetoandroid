@@ -38,6 +38,11 @@ body {
     font-family: var(--fonte-padrao);
 }
 
+a.externo::after {
+    content: '\1F517\00A0';
+}
+
+
 header{
     background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor4));
     background-color: var(--cor4);
@@ -133,7 +138,7 @@ main h2{
     font-family:var(--font-android);
     color: var(--cor4);
     font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
+    background-image: linear-gradient(to right, var(--cor2), transparent);
     text-indent: 7px;
 }
 
@@ -147,8 +152,38 @@ main img.pequena {
     display: block;
 }
 
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px black;
+}
+
+aside > h3 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px
+}
+
+aside ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+
 footer {
     background-color: var(--cor5);
     color: white;
     text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: limegreen;
+    font-weight: bold;
+    text-decoration: none;
 }
